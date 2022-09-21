@@ -1,0 +1,13 @@
+{
+  "id" : "https://vgdlandau.github.io/testPhilae/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in vgdlandau/testPhilae project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://vgdlandau.github.io/testPhilae/manifests/manifest-philae.json",
+    "label" : "Trajan's Kiosk at Philae - Dmitrii Zhodzishskii"
+  } ]
+}
