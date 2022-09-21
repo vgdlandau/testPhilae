@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://vgdlandau.github.io/testPhilae/annotations/e88ee20b5cab2754b64907575f43c646.json" ],
+  "@id" : "https://vgdlandau.github.io/testPhilae/annotations/collection.json",
+  "label" : "All annotations loaded in vgdlandau/testPhilae project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
