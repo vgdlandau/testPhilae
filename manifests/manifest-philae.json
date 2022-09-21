@@ -3,6 +3,11 @@
   "@id" : "https://vgdlandau.github.io/testPhilae/manifests/manifest-philae.json",
   "@type" : "sc:Manifest",
   "label" : "Trajan's Kiosk at Philae - Dmitrii Zhodzishskii",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/109943657/abc9cd6ee23057b2065c181dc60c0780/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ ],
   "description" : [ {
     "@value" : "Photo of Trajan's Kiosk at Philae, Agilkia Island",
@@ -41,6 +46,11 @@
           "width" : 5483
         },
         "on" : "http://a8f6bec9-1833-4eb2-9368-7a500c6c096b"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://vgdlandau.github.io/testPhilae/annotations/e88ee20b5cab2754b64907575f43c646.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "related" : ""
     } ]
