@@ -10,11 +10,11 @@
   "label" : "University of Cologne",
   "metadata" : [ ],
   "description" : [ {
-    "@value" : "[Click to edit description]",
+    "@value" : "Inv. 04274+004298, Köln, Papyrussammlung",
     "@language" : "en"
   } ],
-  "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "[Click to edit attribution]",
+  "license" : "https://creativecommons.org/licenses/by/4.0/",
+  "attribution" : "© Institut für Altertumskunde an der Universität zu Köln.",
   "sequences" : [ {
     "@id" : "http://124c1daa-5983-4040-a1c7-fbb71a034c62",
     "@type" : "sc:Sequence",
