@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://vgdlandau.github.io/testPhilae/manifests/manifest-philae.json",
     "label" : "Trajan's Kiosk at Philae - Dmitrii Zhodzishskii"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://vgdlandau.github.io/testPhilae/manifests/manifest-cologne.json",
+    "label" : "University of Cologne"
   } ]
 }
