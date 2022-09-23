@@ -1,0 +1,58 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://vgdlandau.github.io/testPhilae/manifests/manifest-cologne-anno.json",
+  "@type" : "sc:Manifest",
+  "thumbnail" : {
+    "@id" : "https://papyri.uni-koeln.de/stueck/DS_d1e18043/img/04274_04298/orig/PK4274_4298v.jpg",
+    "width" : 1921,
+    "height" : 1802
+  },
+  "label" : "University of Cologne",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Inv. 04274+004298, Köln, Papyrussammlung",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/4.0/",
+  "attribution" : "© Institut für Altertumskunde an der Universität zu Köln.",
+  "sequences" : [ {
+    "@id" : "http://124c1daa-5983-4040-a1c7-fbb71a034c62",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://example.com/canvas/2",
+      "@type" : "sc:Canvas",
+      "label" : "Static Image",
+      "height" : 1921,
+      "width" : 1802,
+      "thumbnail" : "https://papyri.uni-koeln.de/stueck/DS_d1e18043/img/04274_04298/orig/PK4274_4298v.jpg",
+      "images" : [ {
+        "@id" : "http://example.com/canvas/2/annotation/1",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://papyri.uni-koeln.de/stueck/DS_d1e18043/img/04274_04298/orig/PK4274_4298v.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1921,
+          "width" : 1802
+        },
+        "on" : "http://example.com/canvas/2"
+      } ],
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/109943657/ede4d476a3249e24830754ddfcae7ad3.json",
+        "label" : "Annotations for canvas Static Image"
+      } ]
+    } ]
+  } ],
+  "structures" : [ ],
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/109943657/3a2c9451eecb32eaa83a081125929844/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
