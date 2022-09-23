@@ -13,5 +13,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://vgdlandau.github.io/testPhilae/manifests/manifest-cologne.json",
     "label" : "University of Cologne"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://vgdlandau.github.io/testPhilae/manifests/manifest-cologne-anno.json",
+    "label" : "University of Cologne"
   } ]
 }
