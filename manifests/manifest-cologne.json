@@ -1,0 +1,48 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://vgdlandau.github.io/testPhilae/manifests/manifest-cologne.json",
+  "@type" : "sc:Manifest",
+  "thumbnail" : {
+    "@id" : "https://papyri.uni-koeln.de/stueck/DS_d1e18043/img/04274_04298/orig/PK4274_4298v.jpg",
+    "width" : 1921,
+    "height" : 1802
+  },
+  "label" : "University of Cologne",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://124c1daa-5983-4040-a1c7-fbb71a034c62",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://example.com/canvas/2",
+      "@type" : "sc:Canvas",
+      "label" : "Static Image",
+      "height" : 1921,
+      "width" : 1802,
+      "thumbnail" : "https://papyri.uni-koeln.de/stueck/DS_d1e18043/img/04274_04298/orig/PK4274_4298v.jpg",
+      "images" : [ {
+        "@id" : "http://example.com/canvas/2/annotation/1",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://papyri.uni-koeln.de/stueck/DS_d1e18043/img/04274_04298/orig/PK4274_4298v.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1921,
+          "width" : 1802
+        },
+        "on" : "http://example.com/canvas/2"
+      } ]
+    } ]
+  } ],
+  "structures" : [ ]
+}
